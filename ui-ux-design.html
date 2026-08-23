@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- required meta -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- #favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- #title -->
+   <title>ZDev - UI/UX Design</title>
+   <!-- #keywords -->
+   <meta name="keywords" content="creative, agency, portfolio">
+   <!-- #description -->
+   <meta name="description" content="Creative Freelance Portfolio ">
+   <!-- ==== css dependencies start ==== -->
+   <!-- bootstrap five css -->
+   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+   <!-- glyphter css -->
+   <link rel="stylesheet" href="assets/vendor/glyyphter/css/xpovio.css">
+   <!-- font awesome six css -->
+   <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css">
+   <!-- nice select css -->
+   <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+   <!-- magnific popup css -->
+   <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
+   <!-- slick css -->
+   <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+   <!-- ==== / css dependencies end ==== -->
+   <!-- main css -->
+   <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+   <div class="my-app">
+      <!-- ==== preloader start ==== -->
+      <div id="preloader">
+         <div id="loader"></div>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== mouse cursor drag start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+         <span>Drag</span>
+      </div>
+      <!-- ==== / mouse cursor drag end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+         <div class="primary-navbar cmn-nav">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <nav class="navbar p-0">
+                        <div class="navbar__logo">
+                           <a href="index.html" aria-label="go to home">
+                              <img src="assets/images/logo.png" alt="Image">
+                           </a>
+                        </div>
+                        <div class="navbar__menu">
+                           <ul >
+                              <li class="navbar__item nav-fade">
+                                 <a href="index.html">Home </a>
+                              </li>
+                              <li class="navbar__item nav-fade">
+                                 <a href="about.html">About </a>
+                              </li>
+                              <li class="navbar__item navbar__item--has-children nav-fade">
+                                 <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label"> My Services</a>
+                                 <ul class="navbar__sub-menu">
+                                    <li>
+                                       <a href="services.html">All Services</a>
+                                    </li>
+                                    <li>
+                                       <a href="digital-design.html">Digital Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="mobile-app-development.html">Mobile App Development</a>
+                                     </li>
+                                     <li>
+                                       <a href="ui-ux-design.html">UX/UI Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="website-development.html">Website Development</a>
+                                     </li>
+                                 </ul>
+                              </li>
+                              <li class="navbar__item navbar__item--has-children nav-fade">
+                                 <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label">Projects</a>
+                                 <ul class="navbar__sub-menu">
+                                    <li>
+                                       <a href="projects.html">My Projects</a>
+                                    </li>
+                                    
+                                 </ul>
+                              </li>
+                              
+                              <li class="navbar__item nav-fade">
+                                <a href="contact.html">Contact </a>
+                             </li>
+                           </ul>
+                        </div>
+                        <div class="navbar__options">
+                           <div class="navbar__mobile-options d-none d-sm-flex">
+                              <a href="https://calendly.com/zachary-gilchrist/discovery-call" class="btn btn--secondary">Let's Talk</a>
+                           </div>
+                           <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">
+                              <i class="fa-light fa-bars-staggered"></i>
+                           </button>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <!-- ==== mobile menu start ==== -->
+            <div class="mobile-menu">
+               <nav class="mobile-menu__wrapper">
+                  <div class="mobile-menu__header nav-fade">
+                     <div class="logo">
+                        <a href="index.html">
+                           <img src="assets/images/logo.png" alt="" title="">
+                        </a>
+                     </div>
+                     <a href="javascript:void(0)" aria-label="close mobile menu" class="close-mobile-menu">
+                        <i class="fa-light fa-xmark-large"></i>
+                     </a>
+                  </div>
+                  <div class="mobile-menu__list"></div>
+                  <div class="mobile-menu__options d-flex d-sm-none justify-content-center nav-fade"></div>
+                  <div class="mobile-menu__social social nav-fade">
+                     <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                     </a>
+                     <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                     </a>
+                     <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                     </a>
+                  </div>
+               </nav>
+            </div>
+            <div class="mobile-menu__backdrop"></div>
+            <!-- ==== / mobile menu end ==== -->
+         </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <div id="smooth-wrapper">
+         <div id="smooth-content">
+            <!-- ==== main start ==== -->
+            <main>
+               <!-- ==== banner start ==== -->
+               <section class="cmn-banner service-single-banner bg-img"
+                  data-background="assets/images/banner/cmn-banner-bg.png">
+                  <div class="container">
+                     <div class="row gaper align-items-center">
+                        <div class="col-12 col-lg-5 col-xl-7">
+                           <div class="text-center text-lg-start">
+                              <h2 class="title title-anim">Elevate Your User Experience with Tailored UI/UX Designs</h2>
+                              <nav aria-label="breadcrumb">
+                                 <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                       <a href="index.html">
+                                          <i class="fa-solid fa-house"></i>
+                                          Home
+                                       </a>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                       <a href="services.html">
+                                          My Services
+                                       </a>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page">
+                                       Ui/Ux Design
+                                    </li>
+                                 </ol>
+                              </nav>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-5">
+                           <div class="slide-group justify-content-center justify-content-lg-end">
+                              <a href="mobile-app-development.html" aria-label="previous item" class="slide-btn ">
+                                 <i class="fa-light fa-angle-left"></i>
+                              </a>
+                              <a href="website-development.html" aria-label="next item" class="slide-btn">
+                                 <i class="fa-light fa-angle-right"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / banner end ==== -->
+               <!-- ==== service details start ==== -->
+               <section class="section service-details fade-wrapper">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-xl-10">
+                           <div class="service-details__slider">
+                              <div class="service-details__slider-single">
+                                 <div class="poster fade-top">
+                                    <img src="assets/images/mobile-app-graphic.png" alt="Image">
+                                 </div>
+                                 <div class="details-group section__cta text-start">
+                                    <h3 class="title-anim">Welcome! I'm Zach, Your UI/UX Design Partner</h3>
+                                    <p>
+                                        As a freelance UI/UX designer, I specialize in crafting delightful, user-centric 
+                                        digital experiences. I'm dedicated to transforming ideas into intuitive, visually 
+                                        engaging designs that resonate with your audience.
+                                    </p>
+                                    
+                                 </div>
+                                 <div class="section__content-cta">
+                                    <div class="row gaper">
+                                       <div class="col-12 col-lg-7">
+                                          <div class="details-group">
+                                             <h3 class="title-anim">My Services</h3>
+                                             <h4>
+                                                1. Essentials Package - Contact for pricing <br><br>
+                                             </h4>  
+                                                         
+                                             <li>Ideal for startups and small businesses
+                                             </li>
+                                             <li>Basic user research and wireframing
+                                             </li>
+                                             
+                                             <li>Design guidance for a simple, effective user interface<br><br>
+                                            </li>
+                                            <h4>
+                                                2. Growth Package - Contact for pricing <br><br>
+                                             </h4>  
+                                                         
+                                             <li>Suited for businesses seeking an enhanced design strategy 
+                                             </li>
+                                             <li>In-depth user research and detailed wireframes
+                                             </li>
+                                             <li>Prototyping and user testing
+                                             </li>
+                                             <li>Tailored UI/UX design recommendations<br><br>
+                                            </li>
+                                            <h4>
+                                                3. Pro Package - Contact for pricing <br><br>
+                                             </h4>  
+                                                         
+                                             <li>Comprehensive and high-end UI/UX design solutions
+                                             </li>
+                                             <li>Extensive user research and interactive prototypes
+                                             </li>
+                                             <li>Usability testing and refinement
+                                             </li>
+                                             <li>Strategic consultations for design innovation and market adaptation<br><br>
+                                            </li>
+                                          </div>
+                                       </div>
+                                       <div class="col-12 col-lg-5">
+                                          <div class="poster-small">
+                                             <img src="assets/images/+ Flat I-37.jpg" alt="Image">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="section__content-cta">
+                                    <div class="row gaper">
+                                       <div class="col-12 col-lg-5">
+                                          <div class="poster-small">
+                                             <img src="assets/images/IMG_8449.JPG" alt="Image">
+                                          </div>
+                                       </div>
+                                       <div class="col-12 col-lg-7">
+                                          <div class="details-group">
+                                             <h3 class="title-anim">Why Choose Me?</h3>
+                                             <h4>
+                                                User-Centric Approach:
+                                             </h4>
+                                             <p>I prioritize understanding user needs, ensuring the designs are 
+                                                intuitive and enjoyable to use.
+                                            </p>
+                                            <h4>
+                                             Innovation at the Core: 
+                                             </h4>
+                                             <p>Constantly exploring new design trends and technologies to deliver 
+                                                cutting-edge solutions.
+                                            </p>
+                                            <h4>
+                                             Collaborative Design Process: 
+                                             </h4>
+                                             <p>Your insights are invaluable. I involve you in the creative journey 
+                                                to ensure the designs align with your vision and goals.
+                                            </p>
+                                            <h4>
+                                                Proven Success:
+                                             </h4>
+                                             <p>I have a track record of successful projects that have delivered 
+                                                exceptional user experiences for my clients.
+                                            </p>
+                                       
+                                    </div>
+                                 </div>
+                                 <div class="details-group section__cta text-start">
+                                    <h3 class="title-anim">Ready to Elevate Your User Experience?</h3>
+                                    <p>
+                                        Your brand deserves a UI/UX design that engages and delights your users. 
+                                        Whether you're starting or seeking to enhance your design strategy, my different 
+                                        packages cater to various business needs. Let's start the conversation.
+                                    </p>
+                                    <p>
+                                        Contact me to schedule a call, and together, let's craft designs that speak 
+                                        directly to your audience.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / service details end ==== -->
+               <!-- ==== ux process start ==== -->
+               <section class="section ux-process fade-wrapper">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8">
+                           <div class="section__header text-center">
+                              <span class="sub-title">
+                                 UX Process
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                              <h2 class="title title-anim">working UX Process</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="service-f-wrapper">
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>User Research</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>To deliver the best experience, I thoroughly research and evaluate your product
+                                       and its users to create a strategic foundation for the brand.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Storyboarding</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>I translate user insights into visual narratives, creating a sequence 
+                                       of sketches or images that represent the user's journey and interactions with the product.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Wireframing</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>I create basic outlines and structures of the interface. Focus 
+                                       on layout and functionality without intricate design elements. 
+                                       It's a blueprint for the user interface.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Prototyping</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>I develop interactive models that simulate the functionality of the final product. 
+                                       These prototypes allow for testing the flow and usability before extensive 
+                                       development.
+                                    </p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Usability Testing</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>I put the prototype in the hands of real users, then gather feedback to refine 
+                                       the design, ensuring it meets user needs and is intuitive to use.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>UI Design</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>I add the visual elements, such as colors, typography, and imagery, to the wireframes. This is where the final interface design takes shape while ensuring consistency and usability.
+
+                                    </p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / ux process end ==== -->
+               <!-- ==== cta start ==== -->
+               <section class="cta-two section">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-xxl-11">
+                           <div class="cta-two-wrapper bg-img" data-background="assets/images/cta-two-bg.png">
+                              <div class="row gaper align-items-center">
+                                 <div class="col-12 col-lg-8">
+                                    <div class="cta-two__content">
+                                       <span>Hello !</span>
+                                       <h2 class="title-anim">
+                                          ready to work together?
+                                       </h2>
+                                       <h5>
+                                          <a href="https://calendly.com/zachary-gilchrist/discovery-call">call: +1 954 899 0873</a>
+                                       </h5>
+                                    </div>
+                                 </div>
+                                 <div class="col-12 col-lg-4">
+                                    <div class="text-start text-lg-end">
+                                       <a href="https://calendly.com/zachary-gilchrist/discovery-call" class="btn btn--tertiary">
+                                          start a project
+                                          <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / cta end ==== -->
+            </main>
+            <!-- ==== / main end ==== -->
+            <!-- ==== footer start ==== -->
+            <footer class="footer-two footer-cmn section pb-0">
+               <div class="container">
+                  <div class="row gaper">
+                     <div class="col-12 col-lg-5 col-xl-4">
+                        <div class="footer-two__left">
+                           <div class="logo">
+                              <a href="index.html">
+                                 <img src="assets/images/logo.png" alt="Image">
+                              </a>
+                           </div>
+                           <div class="paragraph">
+                              <p>From pixel to code, I create intuitive mobile apps and 
+                                 responsive web solutions. Let's build something extraordinary 
+                                 together.</p>
+                           </div>
+                           <div class="section__content-cta">
+                              <h2>
+                                 <a href="mailto:zac.gilchrist@gmail.com" class="folks-text">zac.gilchrist@gmail.com</a>
+                              </h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-7 col-xl-7 offset-xl-1 col-xxl-5 offset-xxl-3">
+                        <div class="footer-two__right">
+                           <div class="social justify-content-start justify-content-lg-start">
+                              <a href="https://www.facebook.com/" target="_blank">
+                                 <i class="fa-brands fa-facebook-f"></i>
+                                 <span>Facebook</span>
+                              </a>
+                              <a href="https://www.twitter.com/" target="_blank">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 <span>Twitter</span>
+                              </a>
+                              <a href="https://www.linkedin.com/" target="_blank">
+                                 <i class="fa-brands fa-linkedin-in"></i>
+                                 <span>Linkedin</span>
+                              </a>
+                              <a href="https://www.instagram.com/" target="_blank">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 <span>Instagram</span>
+                              </a>
+                              <a href="https://www.dribble.com/" target="_blank">
+                                 <i class="fa-light fa-basketball"></i>
+                                 <span>Dribble</span>
+                              </a>
+                           </div>
+                           <div class="footer__single-meta section__content-cta">
+                              <a href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                                 target="_blank">
+                                 <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                 Miami
+                                 Florida, USA
+                              </a>
+                              <a href="tel:406-555-0120">
+                                 <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                                 (954) 899-0873
+                              </a>
+                              <a href="mailto:zac.gilchrist@gmail.com">
+                                 <i class="fa-sharp fa-solid fa-envelope"></i>
+                                 zac.gilchrist@gmail.com
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__copyright">
+                  <div class="container">
+                     <div class="row align-items-center gaper">
+                        <div class="col-12 col-xl-6">
+                           <div class="footer__copyright-text text-center text-xl-start">
+                              <p>
+                                 Copyright &copy;
+                                 <span id="copyYear"></span>
+                                
+                                 <a href="" target="_blank">Zachary Gilchrist</a>
+                                 . All Rights Reserved
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                           <ul class="justify-content-center justify-content-xl-end">
+                              <li>
+                                 <a href="index.html">Home</a>
+                              </li>
+                              <li>
+                                 <a href="about.html">About</a>
+                              </li>
+                              <li>
+                                 <a href="services.html">Services</a>
+                              </li>
+                              
+                              <li>
+                                 <a href="contact.html">Contact</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- ==== / footer end ==== -->
+         </div>
+      </div>
+      <!-- ==== scroll to top start ==== -->
+      <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+         <span></span>
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+   </div>
+   <!-- ==== js dependencies start ==== -->
+   <!-- jquery -->
+   <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+   <!-- bootstrap five js -->
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- nice select js -->
+   <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+   <!-- magnific popup js -->
+   <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+   <!-- slick js -->
+   <script src="assets/vendor/slick/js/slick.min.js"></script>
+   <!-- image loaded js -->
+   <script src="assets/vendor/images-loaded/imagesloaded.pkgd.min.js"></script>
+   <!-- isotope js -->
+   <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+   <!-- chroma js -->
+   <script src="assets/vendor/gsap/chroma.min.js"></script>
+   <!-- splittext js -->
+   <script src="assets/vendor/gsap/SplitText.min.js"></script>
+   <!-- scrollsmoother js -->
+   <script src="assets/vendor/gsap/ScrollSmoother.min.js"></script>
+   <!-- scrollto js -->
+   <script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+   <!-- scrolltrigger js -->
+   <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+   <!-- gsap js -->
+   <script src="assets/vendor/gsap/gsap.min.js"></script>
+   <!-- vanilla tilt js -->
+   <script src="assets/vendor/vanilla-tilt/tilt.jquery.js"></script>
+   <!-- ==== / js dependencies end ==== -->
+   <!-- plugins js -->
+   <script src="assets/js/plugins.js"></script>
+   <!-- main js -->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
